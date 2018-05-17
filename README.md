@@ -14,3 +14,8 @@ world_map = [[0 for x in range(100)] for y in range(100)]
 import random
 x = random.randint (0,99)
 ```
+#### Assign city name through A to Z in a loop:  
+```
+for i in range(26):
+		city_name = chr(ord('A') + i)
+```
