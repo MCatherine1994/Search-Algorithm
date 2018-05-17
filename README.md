@@ -17,5 +17,5 @@ x = random.randint (0,99)
 #### Assign city name through A to Z in a loop:  
 ```
 for i in range(26):
-		city_name = chr(ord('A') + i)
+    city_name = chr(ord('A') + i)
 ```
