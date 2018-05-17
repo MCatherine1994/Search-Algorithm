@@ -5,7 +5,12 @@
   Run different search algorithm and compare them.  
   
 ### **Notes**:  
-####  Create a 100*100 two-dimension list:  
+#####  Create a 100*100 two-dimension list:  
 ```
 world_map = [[0 for x in range(100)] for y in range(100)]
+```
+#### Generate a random number in a range:  
+```
+import random
+x = random.randint (0,99)
 ```
