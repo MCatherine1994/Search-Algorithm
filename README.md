@@ -30,7 +30,7 @@ city_list = collections.OrderedDict()
 ```
 import matplotlib.pyplot as plt
 import networkx as nx
-ef draw_graph(city_graph, city_location, path):
+def draw_graph(city_graph, city_location, path):
      g = nx.Graph()    #empty graph
      for node in city_graph:
           g.add_node(node)  #add node
@@ -46,7 +46,7 @@ ef draw_graph(city_graph, city_location, path):
      arc_weight = nx.get_edge_attributes(g,'weight')  #assign the path cost as the edge weight
      nx.draw_networkx(g, pos, node_color = ['r' if not node in path else 'b' for node in g.nodes()], edge_color = ['black' if not edge in edge_list else 'b' for edge in g.edges()])
      nx.draw_networkx_edge_labels(g, pos, edge_labels=arc_weight)
-     plt.axis('off')
-     plt.show()
+     plt.axis('off')  #don't display the axis
+     plt.show()   #show the plot
 
 ```
