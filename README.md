@@ -10,23 +10,23 @@
 ```
 world_map = [[0 for x in range(100)] for y in range(100)]
 ```
-#### Generate a random number in a range:  
+##### Generate a random number in a range:  
 ```
 import random
 x = random.randint (0,99)
 ```
-#### Assign city name through A to Z in a loop:  
+##### Assign city name through A to Z in a loop:  
 ```
 for i in range(26):
     city_name = chr(ord('A') + i)
 ```
-#### Ordered Dictionary  
+##### Ordered Dictionary  
 ```
 import collections
 city_list = collections.OrderedDict()
 ```
   
-#### Visualization a graph  
+##### Visualization a graph  
 ```
 import matplotlib.pyplot as plt
 import networkx as nx
