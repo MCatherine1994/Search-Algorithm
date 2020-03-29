@@ -50,3 +50,12 @@ def draw_graph(city_graph, city_location, path):
      plt.show()   #show the plot
 
 ```
+
+##### Breadth First Search (BFS)  
+Traverse the graph breadthwise as follows:  
+  
+1. First move horizontally and visit all the nodes of the current layer  
+2. Move to the next layer  
+
+
+
